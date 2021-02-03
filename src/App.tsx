@@ -1,9 +1,10 @@
-import React from 'react';
+import React from "react";
+import { HomePageContainer } from "./containers/HomePage";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <HomePageContainer />
     </div>
   );
 }
