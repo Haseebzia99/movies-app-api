@@ -1,8 +1,10 @@
-.banner {
+.banner__wrapper {
     background: url('../../../assets/images/netflix-background.jpg');
     height: 500px;
 
     .banner__title {
+        height: 50%; 
+        
         h1 {
             color: white;
             font-size: 50px;
