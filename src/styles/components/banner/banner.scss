@@ -1,3 +1,11 @@
 .banner {
-    background: center / contain no-repeat url('../../../assets/images/netflix-background.jpg');
+    background: url('../../../assets/images/netflix-background.jpg');
+    height: 500px;
+
+    .banner__title {
+        h1 {
+            color: white;
+            font-size: 50px;
+        }
+    }
 }
